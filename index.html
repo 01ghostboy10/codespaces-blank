@@ -10,6 +10,7 @@
     <body>
         <h1>Testing a heading!</h1>
         <p>Testing a paragraph!</p>
+		<button onclick="togglePopup()">show a popup?</button>
 
  <!--DIALOGUE: trying something out here-->
 
@@ -26,12 +27,12 @@
 	</div>
 
 	<!--popup for starting the website-->
-	<div class="full-screen flex-container-center">
+	<div class="full-screen hidden flex-container-center">
 		<h3>Enter your name below</h3>
-		<button>close this supposed popup</button>
+		<button onclick="togglePopup()">close this supposed popup</button>
 	</div>
-	
-
+	<!--connect the app.js script thingy-->
+	<script src="app.js"></script>
     </body>
 
 

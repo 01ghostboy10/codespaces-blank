@@ -17,6 +17,11 @@ body {
   color: rgb(237, 235, 242);
 }
 
+button {
+  font-family: 'VT323';font-size: 22px;
+  background-color: black;
+  color: white;
+}
 
 
 /*classes for the fullscreen popup yeyeyeeee*/
@@ -34,4 +39,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hidden{
+  display: none;
 }
