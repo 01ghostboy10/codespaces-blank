@@ -23,6 +23,19 @@ button {
   color: white;
 }
 
+input {
+  font-family: 'VT323';font-size: 17px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+  opacity: 0.8; /* optional, helps readability */
+}
+
 
 /*classes for the fullscreen popup yeyeyeeee*/
 .full-screen{
@@ -31,7 +44,7 @@ button {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(7, 7, 45, 0.7);
+  background-color: rgba(7, 7, 45, 1);
 }
 
 .flex-container-center{
