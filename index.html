@@ -15,12 +15,13 @@
  <!--DIALOGUE: trying something out here-->
 
      <div 
+	id="dialogueBox"
 	style = "width: 100%; 
 			border-width: 3px; 
 			border-style: solid; 
-			border-color: white;
+			border-color: rgb(32, 34, 87);
 			color: white;
-            background-color: rgb(32, 34, 87);
+            background-color: rgb(red, green, blue);
 			padding: 17px;
 			font-family: VT323;">
 	Some interesting dialogue.
@@ -31,7 +32,7 @@
 		<h3>Enter your name below, traveller.</h3>
 		<input id="userInput" type="text" placeholder="What is your name?">
 		<br>
-		<button onclick="togglePopup()">close this supposed popup</button>
+		<button onclick="togglePopup(), returnText()">close this supposed popup</button>
 	</div>
 	<!--connect the app.js script thingy-->
 	<script src="app.js"></script>
