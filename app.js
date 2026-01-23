@@ -1,4 +1,6 @@
-//popup code
+//popup code + password
+const password = ""
+
 const popup = document.querySelector('.full-screen');
 console.log(popup);
 
